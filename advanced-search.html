@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google's Advanced Search</title>
+
+    <link rel="stylesheet" href="./assets/base.css">
+</head>
+<body class="advanced-search">
+    <section class="center">
+        <section class="links">
+            <a href="./image-search.html">Image Search</a>
+            <a href="./index.html">Google Search</a>
+        </section>
+        <section class="logo">
+            <img src="./assets/googlelogo_light.png" alt="google's logo on white color">
+        </section>
+
+
+        <section class="search">
+            <section class="page-header">
+                <h1>Advanced Search</h1>
+            </section>
+            <form action="https://www.google.com/search" name="f">
+                <div class="form-columns">
+                    <div id="labels-column" class="input-group">
+                        <label for="as_q">all these words:</label>
+                        <label for="as_epq">this exact word or phrase:</label>
+                        <label for="as_oq">any of these words:</label>
+                        <label for="as_eq">none of these words:</label>
+                    </div>
+                    <div id="fields-column" class="input-group">
+                        <input id="as_q" class="search-input" type="text" autofocus name="as_q">
+                        <input id="as_epq" class="search-input" type="text" autofocus name="as_epq">
+                        <input id="as_oq" class="search-input" type="text" autofocus name="as_oq">
+                        <input id="as_eq" class="search-input" type="text" autofocus name="as_eq">
+                        <section class="search-buttons">
+                            <button class="btn-blue" type="submit" name="btnK">Google Search</button>
+                        </section>
+                    </div>
+                </div>
+
+            </form>
+        </section>
+    </section>
+</body>
+</html>
